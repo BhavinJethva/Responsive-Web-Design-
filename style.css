@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+h1 span {
+    color: darkgoldenrod;
+}
+
+.nav_bar {
+    background-color: skyblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.leftside__box {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+img {
+
+    border-radius: 50%;
+    width: 50%;
+    border: 2px solid yellow;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    page-break-after: always;
+}
+
+.rightside__box {
+    margin-top: 20px;
+}
+
+.text__bio {
+    color: darkgoldenrod;
+}
+.title__text {
+    margin-top: 20px;
+}
+
+.card__container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+   
+}
+
+
+.left-side__card:hover{
+    background-color: rgba(135, 235, 187, 0.733);
+    color: blueviolet;
+  
+}
+
+.right-side__card:hover {
+    background-color: rgba(135, 235, 187, 0.733);
+    color: blueviolet;   
+}
+
+.center-side__card:hover{
+    background-color: rgba(135, 235, 187, 0.733);
+    color: blueviolet;  
+}
+
+ h4{
+    margin-top: 20px;  
+}
+
+.footer__bar {
+    background-color: black;
+    height: 50px;
+    margin-top: 100px;
+    
+}
+p{
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+}
+
+@media only screen and (min-width: 1965px)
+   {
+    body{
+        width: 100%;
+        background-color: blueviolet;
+    }
+   }
+
+   @media screen and (max-width: 760px)
+   {
+    h1 {
+        text-align: center; 
+    }
+    h2 {
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+       
+
+    }
+    .card__container {
+        flex-direction: column;
+    }
+    .profile_img{
+        margin-left: 200px;
+    }
+    .title__text {
+        margin-left: 20px; 
+    }
+   }
+
+
+    
